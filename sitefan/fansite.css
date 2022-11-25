@@ -1,0 +1,275 @@
+html{
+    font-family: 'Press Start 2P', cursive;
+    background-image:url(extension/fontpunk.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+body {
+    padding: 1rem;
+}
+
+header{
+    z-index: 9;
+	position: sticky;
+	top: 0;
+}
+.menu ul{
+    padding: 0;
+    margin: 0%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 2rem;
+    border:  1px solid yellow;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 30px;
+    background-color: darkmagenta;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: darkblue;
+}
+ 
+.menu ul a:hover{
+    border-top: 1px solid #000;
+    width : 700px; 
+    border-color: blue;
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+
+.Picture{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+    padding-bottom: 90%;
+}
+
+.Cyberpunk{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+    filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+    padding-bottom: 70px;
+}
+
+.Trailer{
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Citation{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    background-color: gold;
+    border-radius: 10px;
+    border-width: 10px;
+}
+
+footer{
+    position: sticky;
+	bottom: 0;
+}
+
+.Pic{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    gap: 1rem;
+    filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+}
+
+.VI{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    gap: 1em;
+    filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+    padding: 30px;
+}
+
+.colonne{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    gap: 1em;
+    filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+    padding: 30px;
+}
+
+.Photo{
+    width: 20%;
+}
+
+.Merc{
+    width: 20%;
+}
+
+.avatar{
+    width: 20%;
+}
+
+.city{
+    width: 20%;
+}
+
+.girl{
+    width: 20%;
+}
+
+.joke{
+    width: 20%;
+}
+
+.breath{
+    width: 20%;
+}
+
+.mot{
+    width: 20%;
+}
+
+.bandit{
+    width: 20%;
+}
+
+.David{
+    width: 20%;
+}
+
+.£{
+    width: 20%;
+    height: 40%;
+}
+
+.Amongus{
+    width: 20%;
+    height: 40%;
+}
+
+.cold{
+    width: 20%;
+    height: 40%;
+}
+
+
+.Mistake{
+    width: 20%;
+    height: 40%;
+}
+
+.V{
+    width: 20%;
+    height: 40%;
+}
+
+.seconde{
+    width: 20%;
+    height: 40%;
+}
+
+.vid{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    gap: 1em;
+    filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+    padding: 20px;
+}
+
+.vid2{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    gap: 1em;
+    filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+    padding: 30px;
+}
+
+.Pub{
+    text-decoration: none;
+    color: goldenrod;
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both infinite;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.credit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.insta{
+    height: 50px;
+}
+
+.face-de-book{
+    height: 50px;
+}
+
+.redditor{
+    height: 50px;
+}
+
+.TwitterSphere{
+    height: 50px;
+}
+
+.Field-Text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    border: 1px solid yellow;
+    background-color: gold;
+    border-radius: 10px;
+    border-width: 10px;
+    margin: 0 20%;
+}
